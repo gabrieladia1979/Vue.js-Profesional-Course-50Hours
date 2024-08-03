@@ -5,16 +5,22 @@
 
 <script lang="ts">
     import {defineComponent } from "vue"  
+    
+    interface CounterData {  //Creamos una interfaz para declarar el tipo de dato de counter
+        counter:number
+    }
+
     export default defineComponent({
+    
         name: 'CounterOption',
-        data() {    
+        data():CounterData {   // Tipifica el tipo de retorno del método data 
             let counter = 0;
             return {
                 counter
             }
         },
         methods:{       
-            addCounter(){
+            addCounter():void{ //Declaramos el tipo de retorno de la función addCounter
                 this.counter++;
             }
         }
