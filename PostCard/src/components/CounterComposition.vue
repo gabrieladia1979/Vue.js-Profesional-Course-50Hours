@@ -4,12 +4,12 @@
 </template>
 
 <script lang="ts">  
-    import {defineComponent,ref} from "vue"
+    import {defineComponent, Ref,ref} from "vue"
     export default defineComponent({
         name: "CounterComposition",
         setup(){
-            let counter = ref(0)
-            const addCounter = () => {  
+            let counter:Ref = ref(0)
+            const addCounter = ():void => {  
                 counter.value++
             }
             return {counter, addCounter}
