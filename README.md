@@ -27,3 +27,17 @@ V-IF: Si Sabemos que los datos de los componentes van a estar cambiando constant
 V-SHOW: Para el renderizado del v-show , aparece en el Dom pero utiliza una etiqueta para ocultarlo en el template pero esta en el Dom,  aparece con un "display none"
 
 ![image](https://github.com/user-attachments/assets/1d46a4e2-ba91-498b-b465-c072da2e4105)
+
+V-FOR:
+
+La estrucutura de la directiva del "v-for" , toma la variable del script y la recorre (claramente debe ser un array para poder recorrerla).
+
+![image](https://github.com/user-attachments/assets/7f749629-e8da-49a2-822d-6940336f441a)
+
+Solo con Javascript y con la referencencia a si misma, se veria asi. 
+
+Una version mejorada seria crear una interfaz, a travez de objetos. Ya que estamos trabajando con consumo de APIS.
+
+![image](https://github.com/user-attachments/assets/afb65c9c-ac9f-41b2-b99c-067d9577ccfb)
+
+
