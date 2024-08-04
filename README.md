@@ -9,7 +9,12 @@ ShortCut Composite API: " Simplicidad y Automatización " -> Para Composite API 
 
 ![image](https://github.com/user-attachments/assets/28cd3ec2-1434-4fe5-86d7-d5c91b792ac3)
 
-Clase 3:
+Clase 3: Directivas Selectivas
 
-V-IF: Si Sabemos que el renderizado va a estar cambiando constantemente , no conviene usar V
+
+Renderizado entre V-IF vs V-SHOW:
+
+V-IF: Si Sabemos que los datos de los componentes van a estar cambiando constantemente , el renderizado del Dom virtual al Dom no se muestra la opción que no sea pintada por el "script".
+
+V-SHOW: Para el renderizado del v-show , aparece en el Dom pero utiliza una etiqueta para ocultarlo en el template pero esta en el Dom,  aparece
 
