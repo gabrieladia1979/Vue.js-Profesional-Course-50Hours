@@ -7,7 +7,7 @@
 </template>
 
 <script lang="ts" setup>    
-    import PostBotton from './PostBotton.vue'; 
+    import PostBotton from './Clase_1/PostBotton.vue'; 
 </script>
 
 <style scoped>
