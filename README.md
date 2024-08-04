@@ -14,7 +14,16 @@ Clase 3: Directivas Selectivas
 
 Renderizado entre V-IF vs V-SHOW:
 
+Las directivas son modificadores de etiquetas en el template que te permiten añadir comportamiento dinámico a los elementos del DOM. 
+V-if es una directiva que agrega o elimina elementos del DOM según una expresión booleana.
+
+Directivas:
+
 V-IF: Si Sabemos que los datos de los componentes van a estar cambiando constantemente , el renderizado del Dom virtual al Dom no se muestra la opción que no sea pintada por el "script".
 
-V-SHOW: Para el renderizado del v-show , aparece en el Dom pero utiliza una etiqueta para ocultarlo en el template pero esta en el Dom,  aparece
+![image](https://github.com/user-attachments/assets/2aec4bcb-202c-46ae-8c70-8d894bb51185)
 
+
+V-SHOW: Para el renderizado del v-show , aparece en el Dom pero utiliza una etiqueta para ocultarlo en el template pero esta en el Dom,  aparece con un "display none"
+
+![image](https://github.com/user-attachments/assets/1d46a4e2-ba91-498b-b465-c072da2e4105)
