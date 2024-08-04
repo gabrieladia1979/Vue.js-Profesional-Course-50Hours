@@ -1,12 +1,12 @@
 <template>
   <div>
-    <h1>Contador</h1>
-    <CounterOption />
+    <h1>For</h1>
+    <ExampleFor />
   </div>
 </template>
 
 <script lang="ts" setup>
-import CounterOption from './components/CounterOption.vue';
+import ExampleFor from './components/Clase_3/ExampleFor.vue';
 </script>
 
 <style>

@@ -7,6 +7,5 @@
     let age = 17;
 </script>
 
-<style>
-
+<style scoped>
 </style>
