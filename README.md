@@ -60,3 +60,26 @@ Caso Positivo.
 Bindeo de Estilos por Eventos: 
 
 ![image](https://github.com/user-attachments/assets/b147d69d-9415-4378-bd5a-dc46d7fd8618)
+
+
+
+Clase 4:
+
+
+Bindeo Bidireccional:
+Que es ? 
+
+Entre la inforamcaion del "Script" y la vista del "Template"
+
+![image](https://github.com/user-attachments/assets/4e4824ba-eb78-4131-97c7-db40a129e2c4)
+
+
+Si nosotros queremos gestionar la informacion que queremos estar maniupulando en un input , queremos que se vea reflfejado en los datos dentro del componenetes.
+
+
+Para unidireccional , nuestros datos eran los que gobernanban en la platilla , en el "template". Ahora a su vez la informacion que esta recibe("la plantilla - template") , actualiza tambien el script
+
+Para esot tenemos V-MODEL
+
+
+V-MODEL
