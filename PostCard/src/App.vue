@@ -1,12 +1,12 @@
 <template>
   <div>
-    <h1>For</h1>
-    <ExampleFor />
+    <h1>Mensaje</h1>
+    <ClassBind />
   </div>
 </template>
 
 <script lang="ts" setup>
-import ExampleFor from './components/Clase_3/ExampleFor.vue';
+import ClassBind from './components/Clase_3/ClassBind.vue';
 </script>
 
 <style>
