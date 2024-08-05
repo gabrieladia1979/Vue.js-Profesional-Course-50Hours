@@ -40,4 +40,18 @@ Una version mejorada seria crear una interfaz, a travez de objetos. Ya que estam
 
 ![image](https://github.com/user-attachments/assets/afb65c9c-ac9f-41b2-b99c-067d9577ccfb)
 
+V-BIND: Unidireccional
 
+Nos sirve para bindear datos de una etiqueta del templeta con las del script(nuestro sistema de datos). Todo lo que vamos a estar viendo es a nivel unidireccional
+
+Caso 1 : Bindeo de clases 
+
+![image](https://github.com/user-attachments/assets/5a82a303-69c8-4cbf-a187-8b9333a59671)
+
+En la etiqueta "p" usamos el v-bind para que colorie con la clase .danger del styles si es que la variable "hasError" es True.
+
+Caso contrario no resaltaria en rojo y el bindeo no se activaria.
+
+![image](https://github.com/user-attachments/assets/79705e39-6a8a-4da8-9ce8-2ac2a71a9a4d)
+
+Caso Positivo.
