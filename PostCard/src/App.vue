@@ -1,12 +1,12 @@
 <template>
   <div>
     <h1>Mensaje</h1>
-    <ClassBind />
+    <StylesBind />
   </div>
 </template>
 
 <script lang="ts" setup>
-import ClassBind from './components/Clase_3/ClassBind.vue';
+import StylesBind from './components/Clase_3/StylesBind.vue';
 </script>
 
 <style>
