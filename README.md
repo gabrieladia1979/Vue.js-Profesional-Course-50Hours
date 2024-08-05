@@ -57,6 +57,6 @@ Caso contrario no resaltaria en rojo y el bindeo no se activaria.
 Caso Positivo.
 
 
-Bindeo de Estilos: 
+Bindeo de Estilos por Eventos: 
 
 ![image](https://github.com/user-attachments/assets/b147d69d-9415-4378-bd5a-dc46d7fd8618)
