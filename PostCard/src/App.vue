@@ -1,12 +1,12 @@
 <template>
   <div>
-    <h1>Mensaje</h1>
-    <StylesBind />
+    <h1>Hola</h1>
+    <ModelForm />
   </div>
 </template>
 
 <script lang="ts" setup>
-import StylesBind from './components/Clase_3/StylesBind.vue';
+import ModelForm from './components/Clase_4/ModelForm.vue';
 </script>
 
 <style>
