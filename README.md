@@ -83,3 +83,13 @@ Para esot tenemos V-MODEL
 
 
 V-MODEL
+
+Tendremos un dato de nuestro script vinculado al input de texto , para tener actualizado con el input del template los datos del script.
+
+![image](https://github.com/user-attachments/assets/22be82e0-d1ba-4206-a631-4ed98f2752ca)
+
+De esta manera, con la directiva v-model , referencia al inputText , entonces el valor del input del template estara directamente relacionado con nuestros datos (inputText).
+
+![image](https://github.com/user-attachments/assets/f31f8c11-401a-4cc0-b3b7-339abb53d6f0)
+
+Mostramos como lo que escribimos en el for , directamente se ve reflejado en el input text , mostrandolo por el template a travez de una etiqueta "h1" o un "p".
