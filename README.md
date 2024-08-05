@@ -55,3 +55,8 @@ Caso contrario no resaltaria en rojo y el bindeo no se activaria.
 ![image](https://github.com/user-attachments/assets/79705e39-6a8a-4da8-9ce8-2ac2a71a9a4d)
 
 Caso Positivo.
+
+
+Bindeo de Estilos: 
+
+![image](https://github.com/user-attachments/assets/b147d69d-9415-4378-bd5a-dc46d7fd8618)
