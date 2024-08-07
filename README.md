@@ -98,3 +98,10 @@ Mostramos como lo que escribimos en el for , directamente se ve reflejado en el 
 ![image](https://github.com/user-attachments/assets/b0d02ea2-d3ef-4b9c-99a6-9dfdbf40061a)
 
 Aqui mostramos el uso de V-MODEL con el nuevo formato de tipo v-model con el uso de "CheckBox". A travez de las Vuetools como extension de Google podemos ver como cambia de estado cada dato del script.
+
+Pryoecto Porfesores:
+
+Uso del const HandleSubject -> A travez de esta funcion , vamos a poder agregar materias al apretar el botton del template con nombre "Añadir Materias"
+
+![image](https://github.com/user-attachments/assets/bd1faaf5-930a-468f-be7b-21545fbdb0d3)
+
