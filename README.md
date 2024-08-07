@@ -105,3 +105,7 @@ Uso del const HandleSubject -> A travez de esta funcion , vamos a poder agregar 
 
 ![image](https://github.com/user-attachments/assets/bd1faaf5-930a-468f-be7b-21545fbdb0d3)
 
+Aqui añadimos un array con la informacion de profesores con datos no reactivos , ya que mandando el array completo con el .value , cuando querramos limpiar lo que hay en las casillas ya usados de datos , tambien se limpiara lo guardado.
+
+![image](https://github.com/user-attachments/assets/c63a2d7d-d9a3-4570-92b0-8ed4b9782222)
+
