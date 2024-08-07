@@ -37,7 +37,7 @@
             <th>{{elem.dni}}</th>
             <th>
                 <ul>
-                    <li v-for = '(index,item) in elem.subjects' v-bind:key = 'index'>{{item}}</li>
+                    <li v-for = '(item,index) in elem.subjects' v-bind:key = 'index'>{{item}}</li>
                 </ul>
             </th>
             <th v-if = "elem.documentation">Entregada</th>
