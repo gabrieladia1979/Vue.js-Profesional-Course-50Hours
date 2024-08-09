@@ -109,3 +109,14 @@ Aqui añadimos un array con la informacion de profesores con datos no reactivos 
 
 ![image](https://github.com/user-attachments/assets/c63a2d7d-d9a3-4570-92b0-8ed4b9782222)
 
+Uso de botton de tipo eliminar y modficar:   
+
+Estos apareces una vez que se haya ingresado informacion al array de materias , si no el v-for no se inicia , estas no apareces. La aparecion de estos botones se renederiza en el momento indicado de esta manera.
+
+![image](https://github.com/user-attachments/assets/bf470684-4a57-4fb6-83d7-38166dfe0f8b)
+
+Estas despeus del {subj} , como todavia no hay un subj dentro del array de materias , no tendria que renderizarse. De esta manera controlamos el renderizado
+
+Y para los modificar , que nos devuelve la informacion que agregamos al teachers al teacher label ,donde hicemos el imput. 
+
+![image](https://github.com/user-attachments/assets/9deedb19-3658-4984-b821-12e8277af838)
