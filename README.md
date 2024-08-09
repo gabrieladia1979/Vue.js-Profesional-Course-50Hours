@@ -133,5 +133,20 @@ O tambien a antes de retirar el componenete - todo a travez de eventos.
 
 ![image](https://github.com/user-attachments/assets/a37be1cd-b2c3-4a59-9b1a-d2d6e0ea9190)
 
+Una vez creado el componente, se inicializa el ciclo de vida y los eventos.
+
+El primer evento seria nuestro "beforeCreate" - primer elemenento. No generado inyecciones , no reactividad.
+
+Despues se hacen y ahi recien se dice que el componente esta creado.
+
+Este es un momento preciso para solicitar informacion , porque los elementos no hay sido cargados
+
+Despues hay ciertas verificaciones para montar el componente y pintalarlo en el navegador. (hay tambien comprobaciones en el montado)
+
+Cambios en el componente , beforeUpdate . Si no , ya en el update ya se veria estos cambios.
+
+Lo mismo cuando se destruye el componenete (before - actual) -- todo lo que pasa antes y despues podemos hacer cosas
+
+
 
 
