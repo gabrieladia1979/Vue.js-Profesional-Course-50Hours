@@ -131,6 +131,7 @@ De esta manera anclaremos ciertas acciones para un cierto momento de vida del co
 
 O tambien a antes de retirar el componenete - todo a travez de eventos.
 
-![image](https://github.com/user-attachments/assets/98f8e8ff-fb6d-4ada-888f-b07bbc4da1e0) ![image](https://github.com/user-attachments/assets/861c79a7-8cff-4478-bb0d-33ff323bc3d7)
+![image](https://github.com/user-attachments/assets/a37be1cd-b2c3-4a59-9b1a-d2d6e0ea9190)
+
 
 
