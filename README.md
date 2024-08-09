@@ -120,3 +120,17 @@ Estas despeus del {subj} , como todavia no hay un subj dentro del array de mater
 Y para los modificar , que nos devuelve la informacion que agregamos al teachers al teacher label ,donde hicemos el imput. 
 
 ![image](https://github.com/user-attachments/assets/9deedb19-3658-4984-b821-12e8277af838)
+
+CLASE 5
+
+Ciclo de vida de Componentes:
+
+A travez de montar nuevos componenetes , van a tener un recorrido a travez de ciertos eventos , y que estos se montan. Van a manternerse en escucha una vez creado, actualizandose (a ala reactividad ) hasta que el componenete sea retirado , es decir , sacado del DOM (que el cleinte salga de alguna seccion a otra) y retirado del navegador para hacer otras acciones.
+
+De esta manera anclaremos ciertas acciones para un cierto momento de vida del componente , solo ahi se ejecutaran (modificaciones / borrado / creacion)
+
+O tambien a antes de retirar el componenete - todo a travez de eventos.
+
+![image](https://github.com/user-attachments/assets/98f8e8ff-fb6d-4ada-888f-b07bbc4da1e0) ![image](https://github.com/user-attachments/assets/861c79a7-8cff-4478-bb0d-33ff323bc3d7)
+
+
