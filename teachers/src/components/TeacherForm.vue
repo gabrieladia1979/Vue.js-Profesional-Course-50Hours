@@ -101,7 +101,7 @@
   };
   
   const removeSubject = (index: number) => {
-    teacher.value.subjects.splice(index, 1); // Elimina la materia seleccionada
+    teacher.value.subjects.splice(index, 1); // Elimina la materia seleccionada del array que este en el indice y , solo 1
   };
   
   const handleAddTeacher = () => {
