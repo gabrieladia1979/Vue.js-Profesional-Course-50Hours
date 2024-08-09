@@ -147,6 +147,18 @@ Cambios en el componente , beforeUpdate . Si no , ya en el update ya se veria es
 
 Lo mismo cuando se destruye el componenete (before - actual) -- todo lo que pasa antes y despues podemos hacer cosas
 
+Comounicacion entre Componentes:
+
+![image](https://github.com/user-attachments/assets/dffb3ca8-5f09-4c75-9a9b-99d568c0e487)
 
 
+
+![image](https://github.com/user-attachments/assets/67214914-b87d-4ef8-92ce-ee68a200dd2a)
+
+Para esta imagen, aplicamos CSS para el PostDetail: 
+
+![image](https://github.com/user-attachments/assets/a53ae87a-2576-47bd-8637-78cf2c3dc00c)
+
+El padidng nos muestra el ancho sobre el donde  marcara el color (como una caja).
+El margin nos muestra la distancia con el titulo , mientras mas , mas lejos.
 
