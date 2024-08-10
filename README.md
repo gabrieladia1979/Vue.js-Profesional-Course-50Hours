@@ -149,9 +149,13 @@ Lo mismo cuando se destruye el componenete (before - actual) -- todo lo que pasa
 
 Comounicacion entre Componentes:
 
+Con la creación de componentes es una comunicación de forma independiente en la cual todavía los componentes no se comunican entre sí
+
 ![image](https://github.com/user-attachments/assets/dffb3ca8-5f09-4c75-9a9b-99d568c0e487)
 
+Podríamos tener llamadas de un componente dentro de otro componente pero si bien su estructura y su lógica eran independientes e individuales entre sí, ind en su comportamiento. ahora aplicaremos una comunicación-
 
+Esta es la información vertical descendente en la cual los Padres pueden pasar información a los hijos y de la misma manera los hijos pueden pasar información a sus hijos y dhica informacion en reactiva de tal manera que si modificamos informacion en el padre , va a bajar la mpdificacion como una cadena descendente
 
 ![image](https://github.com/user-attachments/assets/67214914-b87d-4ef8-92ce-ee68a200dd2a)
 
