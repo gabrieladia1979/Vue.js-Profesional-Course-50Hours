@@ -1,26 +1,28 @@
 <template>
-    
-    <div class = 'post'> 
-  
-        <h1>
-            Tituto
-        </h1>
-    
-        <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid voluptate laboriosam blanditiis expedita qui aperiam veniam facere officia quo dolorem enim eveniet, perspiciatis corrupti quibusdam. Facilis sit officiis dignissimos quidem.
-        </p>
-
+    <div class="post"> 
+        <h1>{{ title }}</h1> <!-- Accede a la prop 'title' -->
+        <p>{{ content }}</p> <!-- Accede a la prop 'content' -->
     </div>
 </template>
 
 <script lang="ts" setup>
-
+    import { defineProps , Ref } from 'vue'; // Importa la función defineProps de Vue
+    // Define las props para el componente
+    const props = defineProps({
+        title: {
+            type: String,
+            required: true,
+        },
+        content: {
+            type: String,
+            required: false,
+            default: 'No hay contenido en este post',
+        },
+    });
 </script>
 
 <style scoped>
-
 .post {
-
     width: 300px;
     height: auto;
     background-color: yellowgreen;
