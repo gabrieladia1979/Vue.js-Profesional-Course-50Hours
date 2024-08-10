@@ -1,12 +1,12 @@
 <template>
   <div>
     <h1>Hola</h1>
-    <ModelForm />
+    <PostList />
   </div>
 </template>
 
 <script lang="ts" setup>
-import ModelForm from './components/Clase_4/ModelForm.vue';
+import PostList from './components/Clase_5/PostList.vue';
 </script>
 
 <style>
