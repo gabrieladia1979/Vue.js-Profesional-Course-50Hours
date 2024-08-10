@@ -174,3 +174,9 @@ Para esta imagen, aplicamos CSS para el PostDetail:
 El padidng nos muestra el ancho sobre el donde  marcara el color (como una caja).
 El margin nos muestra la distancia con el titulo , mientras mas , mas lejos.
 
+
+Uso de PROPS para aplicar la comunicacion Vertical
+
+![image](https://github.com/user-attachments/assets/c158da67-7b21-40fe-8d78-a34484469290)
+
+Queremos que el let y el recorrido que tiene un titulo y un parrafo de texto en el PostList , se ve reflejado en el " hijo " -> el PostDetail , que tambien tiene un titulo y un parrafo , queremos moficarlo con lo del padre.
