@@ -147,11 +147,11 @@ Cambios en el componente , beforeUpdate . Si no , ya en el update ya se veria es
 
 Lo mismo cuando se destruye el componenete (before - actual) -- todo lo que pasa antes y despues podemos hacer cosas
 
-
+-
 
 Comounicacion entre Componentes:
 
-
+-
 
 Con la creación de componentes es una comunicación de forma independiente en la cual todavía los componentes no se comunican entre sí
 
