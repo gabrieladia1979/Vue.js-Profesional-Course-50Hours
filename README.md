@@ -225,3 +225,18 @@ Lo hacemos emitiendo eventos , con los cuales el hijo emite un evento para que l
 A travez del alert , le avisamos al padre que modifque el titulo o contenido. Esa es la manera de comunicarnos.
 
 
+Resumen de sucesos: 
+
+Botton con Habdle click que emite un evento de alerta que le llegua al padre , y de esta manera , lo modifica este en el template.
+
+![image](https://github.com/user-attachments/assets/1186249c-7107-4c74-9f0a-40ab926bf35e)  ![image](https://github.com/user-attachments/assets/625a0ff6-02d4-4b5f-a550-bfaf4b927cb5)
+
+![image](https://github.com/user-attachments/assets/2de755fb-aaeb-4464-8ad4-4ad0b6e437d5)
+
+
+La alarta como funcion se crea en el padre para poder llamarla y crar el evento ;  pero la que nos muestra el evento y a la inforamacion a travez de los enit , es le hijo.
+
+Fin de Clase 5.
+
+
+
