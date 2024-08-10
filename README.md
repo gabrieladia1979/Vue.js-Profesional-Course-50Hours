@@ -180,3 +180,26 @@ Uso de PROPS para aplicar la comunicacion Vertical
 ![image](https://github.com/user-attachments/assets/c158da67-7b21-40fe-8d78-a34484469290)
 
 Queremos que el let y el recorrido que tiene un titulo y un parrafo de texto en el PostList , se ve reflejado en el " hijo " -> el PostDetail , que tambien tiene un titulo y un parrafo , queremos moficarlo con lo del padre.
+
+Estas se etiquetan el la etiqueta html.
+
+![image](https://github.com/user-attachments/assets/5777ff00-aa0c-40b2-bef4-8ae8de0733c2)
+
+
+Pasamos en cada recorrido del before , le paso la informacion de manera vertical; asi con toda la informacion qur querramos pasar.
+
+Queda ver como el hijo la recoje.
+
+Esta que recibe es de tipo "LECTURA" -> No va a modificar la inforamacion que elige , solo se encarga de leerla.
+
+Para las props en los hijos , defino las props que "espero recibir" , indicando el tipo de informacion.
+
+Asi teniendo disponible las props , tratando de validad que el contenido sea valido (mejor para corroborrar).
+
+![image](https://github.com/user-attachments/assets/bb4b2c8d-c16b-4e4d-a8a8-6cd56e7db478)
+
+Indico si es obligatoria recibir cierta PROPS , para avisar si es o no obligatorio rebir X informacion
+
+![image](https://github.com/user-attachments/assets/8401cde6-9d3f-4599-9532-e88bc7da2264)
+
+: en title y content las uso con : , porque estan bindeada con la infoamacion que tengo-
