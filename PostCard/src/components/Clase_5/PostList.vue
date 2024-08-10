@@ -1,6 +1,7 @@
 <template>
   <div class = 'conteiner'>
-    <PostList v-for = 'elem in info' :key = 'elem.title' :title = 'elem.title' :content = 'elem.content'/>
+    <PostList v-for = 'elem in info' :key = 'elem.title' :title = 'elem.title' :content = 'elem.content'
+    @sayHi = 'showAlert'/>
   </div>
 </template>
 
@@ -40,6 +41,13 @@
         }
 
     ]
+
+
+    function showAlert (msg:string):void {
+
+        alert(msg);
+
+    }
 
 </script>
 

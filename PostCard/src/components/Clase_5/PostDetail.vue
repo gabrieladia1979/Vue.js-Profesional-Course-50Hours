@@ -1,12 +1,13 @@
 <template>
     <div class="post"> 
-        <h1>{{ title }}</h1> <!-- Accede a la prop 'title' -->
-        <p>{{ content }}</p> <!-- Accede a la prop 'content' -->
+        <h1>{{ props.title }}</h1> <!-- Accede a la prop 'title' -->
+        <p>{{ props.content }}</p> <!-- Accede a la prop 'content' -->
+        <button v-on:click = 'handleClick'> Di Hola </button>
     </div>
 </template>
 
 <script lang="ts" setup>
-    import { defineProps , Ref } from 'vue'; // Importa la función defineProps de Vue
+    import { defineProps, defineEmits } from 'vue'; // Importa la función defineProps de Vue
     // Define las props para el componente
     const props = defineProps({
         title: {
@@ -18,7 +19,15 @@
             required: false,
             default: 'No hay contenido en este post',
         },
+
     });
+
+    const emits = defineEmits(['sayHi']); // Define el evento showAlert
+
+    const handleClick = () => {
+        emits('sayHi', 'Hiciste clic en el post: ${props.title}');
+    };
+
 </script>
 
 <style scoped>
