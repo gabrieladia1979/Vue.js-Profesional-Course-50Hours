@@ -208,6 +208,8 @@ Indico si es obligatoria recibir cierta PROPS , para avisar si es o no obligator
 
 Aca vemos ya como los compoenentes hijos reciben esa informacion.
 
+FINAL PROPS
+
 -
 
 Arquitectura Vertical Ascendente
@@ -216,5 +218,10 @@ Arquitectura Vertical Ascendente
 
 ![image](https://github.com/user-attachments/assets/c98de8c5-9a5c-4f6a-a242-4d9779ff318d)
 
+La idea con esta Emits , es que los hijos puedan modificar la inforamacion de abajo hacia sus padres (arriba).
+
+Lo hacemos emitiendo eventos , con los cuales el hijo emite un evento para que le llegue al padre. De esta manera este lo escucha y ejecuta el componente padres y recibe al informacion.
+
+A travez del alert , le avisamos al padre que modifque el titulo o contenido. Esa es la manera de comunicarnos.
 
 
