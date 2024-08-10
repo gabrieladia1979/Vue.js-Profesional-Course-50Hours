@@ -202,4 +202,8 @@ Indico si es obligatoria recibir cierta PROPS , para avisar si es o no obligator
 
 ![image](https://github.com/user-attachments/assets/8401cde6-9d3f-4599-9532-e88bc7da2264)
 
-: en title y content las uso con : , porque estan bindeada con la infoamacion que tengo-
+: en title y content las uso con : , porque estan bindeada con la infoamacion que tengo
+
+![image](https://github.com/user-attachments/assets/3438d755-73d1-4d2f-8e24-869fd561f1e2)
+
+Aca vemos ya como los compoenentes hijos reciben esa informacion.
