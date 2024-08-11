@@ -246,6 +246,9 @@ Comienzo de Clase 6:
 Nuevo tipo de dato 
 Datos Computados:
 
+![image](https://github.com/user-attachments/assets/1f676cd9-8230-493e-8b5c-eec220b2f979)
+
+
 Elementos de reactividad de primer orden, elementos vinculados a lareactividad de nuestro componente.
 
 Vamos a tener otros valores que tienen dependencias a otros componentes. 
