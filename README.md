@@ -270,13 +270,16 @@ Para estos casos , vamos a necesitar un valor inicial y apartar del cual vamos a
 Primer caso . Cadena invertida. 
 
 
-Foto 
+![image](https://github.com/user-attachments/assets/de226300-b2ec-4ad2-89b2-c161767b449a)
 
 
 Acá podríamos ver como nuestro valor computado , cada vez que calcula el valor de la dependencia , también hace el cálculo del valor computado.
 
 
-De tal manera que Vue jo esta ejecutando una reactividad sobre su valor computado, si no que escuchalas dependencia y cuando son modificadas el valor computado ca,nia.
+![image](https://github.com/user-attachments/assets/965e2dfe-487d-49d6-8aab-30762bde9091)
+
+
+De tal manera que Vue "NO" esta ejecutando una reactividad sobre su valor computado, si no que escuha sus dependencias y cuando son modificadas el valor computado desde ahi/ellas.
 
 
 
