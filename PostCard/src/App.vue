@@ -1,12 +1,12 @@
 <template>
   <div>
     <h1>Hola</h1>
-    <PostList />
+    <ComputedExercise />
   </div>
 </template>
 
 <script lang="ts" setup>
-import PostList from './components/Clase_5/PostList.vue';
+import ComputedExercise from './components/Clase_6/ComputedExercise.vue';
 </script>
 
 <style>
