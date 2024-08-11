@@ -238,6 +238,8 @@ La alarta como funcion se crea en el padre para poder llamarla y crar el evento 
 
 Fin de Clase 5.
 
+...
+
 Comienzo de Clase 6:
 
 
@@ -260,11 +262,21 @@ Indicamos a Vue , que este dato computado , quiero que sea reactivo pero que no 
 los que este depende y cuando ellas cambien , de paso también cambie el valor de computed. 
 
 
+.Vamos a hacer una práctica sobre este.
 
 
+Para estos casos , vamos a necesitar un valor inicial y apartar del cual vamos a generar la dependencia a nuestro valor computado.
+
+Primer caso . Cadena invertida. 
 
 
+Foto 
 
+
+Acá podríamos ver como nuestro valor computado , cada vez que calcula el valor de la dependencia , también hace el cálculo del valor computado.
+
+
+De tal manera que Vue jo esta ejecutando una reactividad sobre su valor computado, si no que escuchalas dependencia y cuando son modificadas el valor computado ca,nia.
 
 
 
