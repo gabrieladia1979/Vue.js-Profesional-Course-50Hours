@@ -284,5 +284,14 @@ Acá podríamos ver como nuestro valor computado , cada vez que calcula el valor
 
 De tal manera que Vue "NO" esta ejecutando una reactividad sobre su valor computado, si no que escuha sus dependencias y cuando son modificadas el valor computado desde ahi/ellas.
 
+![image](https://github.com/user-attachments/assets/4d8dd05f-beed-4a93-b5e0-566d3108e0ea)
+
+
+Aqui podemos calcular como seria el precio de impuestos que deberiamos pagar de mas.
+
+-Final Clase 6-
+
+-Incio Clase 7 - 
+
 
 
