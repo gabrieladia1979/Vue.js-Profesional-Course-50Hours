@@ -238,5 +238,38 @@ La alarta como funcion se crea en el padre para poder llamarla y crar el evento 
 
 Fin de Clase 5.
 
+Comienzo de Clase 6:
+
+
+Comienzo de Clase 6:
+
+
+Datos Computados:
+
+Elementos de reactividad de primer orden, elementos vinculados a lareactividad de nuestro componente.
+
+Vamos a tener otros valores que tienen dependencias a otros componentes. 
+
+Ejemplo : Cadena de texto como valor de referencia reactiva,  cambiante. (Caso de primer orden)
+
+Ejemplo 2 : Reverse de un input (Hola al revés como cadena) , también lo queremos referenciado a ese input para que sea 
+
+reactivo , pero su contenido depende de la cadena del input que ingresa el usuario. ( dato computado )
+
+De esta manera , estaríamos hablando de un elemento reactivo,  relacionado y dependiente del valor del input , decimos
+
+que es un dato computado.
+
+Indicamos a Vue , que este dato computado , quiero que sea reactivo pero que no lo escuches a el , si no a los valores de 
+
+los que este depende y cuando ellas cambien , de paso también cambie el valor de computed. 
+
+
+
+
+
+
+
+
 
 
