@@ -264,8 +264,8 @@ que es un dato computado.
 Indicamos a Vue , que este dato computado , quiero que sea reactivo pero que no lo escuches a el , si no a los valores de 
 los que este depende y cuando ellas cambien , de paso también cambie el valor de computed. 
 
-
-.Vamos a hacer una práctica sobre este.
+-Practica-
+Vamos a hacer una práctica sobre este.
 
 
 Para estos casos , vamos a necesitar un valor inicial y apartar del cual vamos a generar la dependencia a nuestro valor computado.
