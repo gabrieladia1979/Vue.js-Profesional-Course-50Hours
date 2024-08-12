@@ -297,6 +297,21 @@ Directivas Personalizadas: (Modificar como actua dentro de viertual Dom las etiq
 
 Ahora haremos nuestras directivas propias , con un ejercicio de servicios (API).
 
+-Pueden cambiar el aspecto , a tambien acciones mas complejas , v-for , o v-lising. Nuestro tope es la imaginacion.
+
+![image](https://github.com/user-attachments/assets/13800e10-cd51-4c7e-b21b-5c7ce1115ea5)
+
+Donde la codificamos : 
+
+En el propio componente , cuando tan solo va a estar definida para el propio componente (Que no es el mejor caso)
+
+La idea es que todos los componenetes puedan utilizarla , por eso hacerlo general para usarla en los majores casos posibles.
+
+La estructuracion va a estar centrada en el main.ts -> Ya que en futuras clases , cuando veamos estructuracion , vamos a hacer el montado a travez del main. (Donde hacemos el montado de nuestra aplicacion)
+
+
+
+
 
 
 
