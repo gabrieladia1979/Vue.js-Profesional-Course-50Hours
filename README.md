@@ -293,5 +293,15 @@ Aqui podemos calcular como seria el precio de impuestos que deberiamos pagar de 
 
 -Incio Clase 7 - 
 
+Directivas Personalizadas: (Modificar como actua dentro de viertual Dom las etiquetas ya prestablecidas)
+
+Ahora haremos nuestras directivas propias , con un ejercicio de servicios (API).
+
+
+
+
+
+
+
 
 
