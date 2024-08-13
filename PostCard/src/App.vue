@@ -1,12 +1,12 @@
 <template>
   <div>
     <h1>Hola</h1>
-    <ComputedExercise />
+    <ComputedExerciseFull />
   </div>
 </template>
 
 <script lang="ts" setup>
-import ComputedExercise from './components/Clase_6/ComputedExercise.vue';
+import ComputedExerciseFull from './components/Clase_6/ComputedExcerciseFull.vue';
 </script>
 
 <style>
