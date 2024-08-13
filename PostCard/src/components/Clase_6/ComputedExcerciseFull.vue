@@ -50,37 +50,44 @@ interface IProduct {
   quantity: number;
 }
 
+// Definir la interfaz de una factura
+interface IInvoice {
+  subtotal: number;
+  totalVat: number;
+  totalFinal: number;
+}
+
 // Lista reactiva de productos actuales
 const currentProducts = ref<IProduct[]>([{ price: 0, quantity: 1 }]);
 
 // Historial de facturación inmutable
-const invoiceHistory = ref<{ subtotal: number; totalVat: number; totalFinal: number }[]>([]);
+const invoiceHistory = ref<IInvoice[]>([]);
 
 // Agrega un nuevo producto a la lista actual
-const addProduct = () => {
+const addProduct = (): void => {
   currentProducts.value.push({ price: 0, quantity: 1 });
 };
 
 // Elimina el último producto de la lista actual
-const removeProduct = () => {
+const removeProduct = (): void => {
   if (currentProducts.value.length > 1) {
     currentProducts.value.pop();
   }
 };
 
 // Computado para calcular el subtotal
-const subtotal = computed(() =>
-  currentProducts.value.reduce((sum, product) => sum + product.price * product.quantity, 0)
+const subtotal = computed<number>(() =>
+  currentProducts.value.reduce((sum: number, product: IProduct) => sum + product.price * product.quantity, 0)
 );
 
 // Computado para calcular el total de impuestos
-const totalVat = computed(() => (subtotal.value * vat) / 100);
+const totalVat = computed<number>(() => (subtotal.value * vat) / 100);
 
 // Computado para calcular el total final (subtotal + impuestos)
-const totalFinal = computed(() => subtotal.value + totalVat.value);
+const totalFinal = computed<number>(() => subtotal.value + totalVat.value);
 
 // Finaliza la factura y guarda una copia inmutable en el historial
-const finalizeInvoice = () => {
+const finalizeInvoice = (): void => {
   invoiceHistory.value.push({
     subtotal: subtotal.value,
     totalVat: totalVat.value,
