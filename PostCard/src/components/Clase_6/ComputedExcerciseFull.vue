@@ -23,8 +23,12 @@
       quantity:number
     }
 
-    let products:Ref<IProduct> =  ref([{
-        price:0, quantity:0}]);
+    let Product:Ref<IProduct> =  ref([{
+        price:0, 
+        quantity:1}
+    ]);
+
+    let Products:Ref
 
 </script>
 
