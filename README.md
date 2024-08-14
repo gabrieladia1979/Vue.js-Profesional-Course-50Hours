@@ -378,6 +378,11 @@ Como accedemos ?  Por el binding.
 
 ![image](https://github.com/user-attachments/assets/56c97f92-9635-4165-971c-53bfaae9c1f7)
 
+Funcionaria igual que el "V-MODEL" , donde a aquel se le da un value ; aqui tambien haremos lo mismo para poder modificar el size que le llega al main a travez de binding.
+
+![image](https://github.com/user-attachments/assets/53989ab9-533b-45b2-9dd6-9a3af9d66fe6)
+
+
 
 
 
