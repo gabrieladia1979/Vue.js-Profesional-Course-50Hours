@@ -309,6 +309,62 @@ La idea es que todos los componenetes puedan utilizarla , por eso hacerlo genera
 
 La estructuracion va a estar centrada en el main.ts -> Ya que en futuras clases , cuando veamos estructuracion , vamos a hacer el montado a travez del main. (Donde hacemos el montado de nuestra aplicacion)
 
+Paso 1) 
+
+Creo una constante App en la cual creamos la aplicaicon y a esa app le asignamos el montado.
+Lo mismo que antes pero ahora podemos antes de montarla , crearle los diferentes elementos. Ahi entran la directivas propias
+
+![image](https://github.com/user-attachments/assets/096f2b5b-916e-48c1-a7b7-6f80a2c325d1)
+
+Estructura de Directiva:
+
+
+app.directive
+
+1ro nombre de directiva , 2do objeto con comportamientos de la directiva sobre el virual Dom. 
+
+![image](https://github.com/user-attachments/assets/78f04bef-2394-41bd-a7c3-2599aba6f1a1)
+
+Nos paramos en los argunmentos que recibe. 
+
+El famoso nombre de  " v- " , lo asigna VUE directamente a todas nuestras directivas.
+
+Arrancamos con directiva de cambio de fuente , vamos a modificar el tamaño concreto sobre hacia uno en concreto.
+
+Paso 2 - pasar el objeto clave -valor 
+
+a- Donde el primero es el arguemnto de ciclo de vida donde la directiva actual en su aplicacion.
+b-  Funcion de actuacion cuando a actue.
+
+Asi como unmountes , mounted  (hooks / eventos).
+
+![image](https://github.com/user-attachments/assets/50c5c63d-ee22-4377-be0a-86c5c56c5725)
+
+Se puede añadir mas de un evento en cada directiva , pero con uno solo en este caso ya basta.
+
+Siempre recibimos el "el" y el "binding"
+
+el : Elemento donde se esta montando el componente , la etiqueta final html que estamos utilizando en app para montarla.
+
+![image](https://github.com/user-attachments/assets/d1d9ec1d-68e5-4aa4-8f03-8f0f187bc71d)
+
+El "el" si lo aplicamos al label , sera esa. Gracias a que la montamos en la app , el "el" va a ser el acceder a nuestras herramientas del DOM.
+
+Binding - Datos recibidos para ejectar acciones o opciones.
+
+La directiva va a poder recibir valores para nuestra directiva , estas llegan aqui , al binding. Toda la configuracion necesario.
+
+![image](https://github.com/user-attachments/assets/e02c078c-c832-4342-a9a3-f0fd51fca78b)
+
+Despues del el , es TypeScripot o JavaScript normal.
+
+
+
+
+
+
+
+
 
 
 
