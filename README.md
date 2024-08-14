@@ -370,6 +370,17 @@ Al label se le aplica el font size. Funciona de manera correcta.
 
 --Incio de Binding Variables - Bindeo Value--
 
+![image](https://github.com/user-attachments/assets/56b930c7-165c-4c6e-a493-2389cd4ee47b)
+
+Aca podemos ver como ademas podemos modificar el size segun el bindeo. Ya no es un vlaor cualquier , el componente nos va a indicar el tamaño dentro del binding.
+
+Como accedemos ?  Por el binding.
+
+![image](https://github.com/user-attachments/assets/56c97f92-9635-4165-971c-53bfaae9c1f7)
+
+
+
+
 
 
 
