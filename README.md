@@ -356,7 +356,19 @@ La directiva va a poder recibir valores para nuestra directiva , estas llegan aq
 
 ![image](https://github.com/user-attachments/assets/e02c078c-c832-4342-a9a3-f0fd51fca78b)
 
-Despues del el , es TypeScripot o JavaScript normal.
+Despues del el , es TypeScript o JavaScript normal.
+
+![image](https://github.com/user-attachments/assets/0c3fbf9b-6e9b-4cae-a07d-8c34ebca536f)
+
+Ya podemos aplicar nuestra directiva declarada en el main.ts y ya van a aparecer las modificaciones sobre el virtual DOM que antes de que se monte , va a cambiar la fuente.
+
+![image](https://github.com/user-attachments/assets/4610ffaf-114d-460a-a4ba-8ee335681166)
+
+Al label se le aplica el font size. Funciona de manera correcta.
+
+--Fin de primer Ejemplo--
+
+--Incio de Binding Variables - Bindeo Value--
 
 
 
