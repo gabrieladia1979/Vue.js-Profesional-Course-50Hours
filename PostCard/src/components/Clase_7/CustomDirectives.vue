@@ -1,6 +1,6 @@
 <template>
   <div>
-      <label for="subtTotal">Subtotal</label>
+      <label for="subtTotal" v-custom-size = '100'>Subtotal</label>
       <input type="number" v-model="subtTotal">
       <p v-custom-size="100">Total impuestos a pagar: {{ TotalVat }}  ({{ vat }})%</p>
   </div>
