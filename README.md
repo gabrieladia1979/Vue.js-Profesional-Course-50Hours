@@ -391,6 +391,32 @@ Ahora le podemos aplicar a nuestras directivas valores ya le le llega al binding
 
 ![image](https://github.com/user-attachments/assets/be35f0c4-ada4-4808-ad27-7aa50d4d0f53)
 
+Podemos solicitar ademas de los elementos que le pasamos directos a la directiva , podemos solocitar "argumentos"
+
+Ciertos argumentos seran recibidos como parametro.
+
+![image](https://github.com/user-attachments/assets/a5bf32de-e1cc-420a-8b47-660ce1f749f2)
+
+Asi como v-bind ,  vamos a poder a travez de los " : " , solo acepta argumentos del tipo STYLE - KEY - CLASS , y despues recibe un value.
+
+![image](https://github.com/user-attachments/assets/4575fd3f-7791-469c-b0f6-7adf4bf4e35d)
+
+Para este caso , vamos a usar un SWITCH: 
+
+En funcion al ARG , aplico una fuente o otra.
+
+![image](https://github.com/user-attachments/assets/088f2f18-17dc-4e32-a84a-d560f0f492e4)
+
+Tambien es posible que no reciba un argumento , pero presentamos los distintos casos para cada argumento posible.
+
+
+
+
+
+
+
+
+
 
 
 
