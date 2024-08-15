@@ -372,7 +372,7 @@ Al label se le aplica el font size. Funciona de manera correcta.
 
 ![image](https://github.com/user-attachments/assets/56b930c7-165c-4c6e-a493-2389cd4ee47b)
 
-Aca podemos ver como ademas podemos modificar el size segun el bindeo. Ya no es un vlaor cualquier , el componente nos va a indicar el tamaño dentro del binding.
+Aca podemos ver como ademas podemos modificar el size segun el bindeo. Ya no es un valor cualquier , el componente nos va a indicar el tamaño dentro del binding.
 
 Como accedemos ?  Por el binding.
 
@@ -381,6 +381,15 @@ Como accedemos ?  Por el binding.
 Funcionaria igual que el "V-MODEL" , donde a aquel se le da un value ; aqui tambien haremos lo mismo para poder modificar el size que le llega al main a travez de binding.
 
 ![image](https://github.com/user-attachments/assets/53989ab9-533b-45b2-9dd6-9a3af9d66fe6)
+
+![image](https://github.com/user-attachments/assets/3a57f049-5972-4990-8d78-1864f13756c4)
+
+Y aca tenemos como ejemplo como funcionaria la directiva pero con actuaciones distintas en funcion a los valores que se le pasan por el bindeo . value
+
+Ahora le podemos aplicar a nuestras directivas valores ya le le llega al binding.
+
+
+![image](https://github.com/user-attachments/assets/be35f0c4-ada4-4808-ad27-7aa50d4d0f53)
 
 
 
