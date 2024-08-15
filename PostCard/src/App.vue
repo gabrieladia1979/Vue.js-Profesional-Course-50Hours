@@ -1,12 +1,12 @@
 <template>
   <div>
     <h1>Hola</h1>
-    <ComputedExerciseFull />
+    <CustomDirectives />
   </div>
 </template>
 
 <script lang="ts" setup>
-import ComputedExerciseFull from './components/Clase_6/ComputedExcerciseFull.vue';
+  import CustomDirectives from './components/Clase_7/CustomDirectives.vue';
 </script>
 
 <style>
