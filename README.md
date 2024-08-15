@@ -409,6 +409,16 @@ En funcion al ARG , aplico una fuente o otra.
 
 Tambien es posible que no reciba un argumento , pero presentamos los distintos casos para cada argumento posible.
 
+El tamaño default es 18 para caundo no haya ningun valor.
+
+Ahora le pasamos distintos argumentos a la directiva y vemos como cambian dichas.
+
+![image](https://github.com/user-attachments/assets/dda3b4c2-814c-4e32-bc10-263d1c49f4cc)
+
+![image](https://github.com/user-attachments/assets/204b4cf0-163f-40cd-824f-f88a532cc093)
+
+
+
 
 
 
