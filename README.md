@@ -417,6 +417,8 @@ Ahora le pasamos distintos argumentos a la directiva y vemos como cambian dichas
 
 ![image](https://github.com/user-attachments/assets/204b4cf0-163f-40cd-824f-f88a532cc093)
 
+![image](https://github.com/user-attachments/assets/2b0afe46-d0d0-4bdd-8621-99d47203dbed)
+
 
 
 
