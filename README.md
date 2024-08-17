@@ -1,5 +1,8 @@
 # Proyecto Introduccion a Vue.JS 
 
+Curso Introductorio a Vue.js de GOGODEV de mas de 50 Horas.
+Dejo contancia de anotaciones para interesados en lo teorico y lo aprendido.
+
 Clase 2:
 
 Option Api  - Reactividad Implicita : La reactividad de los datos es automatica , no es necesario usar referencia ;  pero la estructura es distinta y mas declarativa que el "Composite API", hay que declarar los metodos que usemos en apartados distintos (Estructura declarativa) , los datos en otro y demas. De esta manera es mas clara la logica pero es mas trabajo la delcaracion si el proyecto es extenso.
