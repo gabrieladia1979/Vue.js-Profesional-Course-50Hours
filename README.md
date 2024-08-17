@@ -432,7 +432,7 @@ Ahora le pasamos distintos argumentos a la directiva y vemos como cambian dichas
 
 ![image](https://github.com/user-attachments/assets/204b4cf0-163f-40cd-824f-f88a532cc093)
 
-## Directivas Personalizadas con Argumentos
+### Directivas Personalizadas con Argumentos
 
 - Asi como vimos los Argumentos , ahora tenemos los modificadores:
 
