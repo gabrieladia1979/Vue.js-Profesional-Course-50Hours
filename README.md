@@ -1,5 +1,5 @@
-# Proyecto Introduccion a Vue.JS :)
-New Proyect with Vue and Laravel
+# Proyecto Introduccion a Vue.JS 
+
 Clase 2:
 
 Option Api  - Reactividad Implicita : La reactividad de los datos es automatica , no es necesario usar referencia ;  pero la estructura es distinta y mas declarativa que el "Composite API", hay que declarar los metodos que usemos en apartados distintos (Estructura declarativa) , los datos en otro y demas. De esta manera es mas clara la logica pero es mas trabajo la delcaracion si el proyecto es extenso.
