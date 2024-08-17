@@ -404,35 +404,35 @@ Y aca tenemos como ejemplo como funcionaria la directiva pero con actuaciones di
 Ahora le podemos aplicar a nuestras directivas valores ya le le llega al binding.
 
 
-![image](https://github.com/user-attachments/assets/be35f0c4-ada4-4808-ad27-7aa50d4d0f53)
+### Directivas Personalizadas con Arguementos:
 
-Podemos solicitar ademas de los elementos que le pasamos directos a la directiva , podemos solocitar "argumentos"
+- Podemos solicitar ademas de los elementos que le pasamos directos a la directiva , podemos solocitar "argumentos"
 
-Ciertos argumentos seran recibidos como parametro.
+Ciertos argumentos seran recibidos como parametro, y estos los definimos dentro nuestra directiva con cierto parametro que estaria mostrando o reprensentando.
 
 ![image](https://github.com/user-attachments/assets/a5bf32de-e1cc-420a-8b47-660ce1f749f2)
 
-Asi como v-bind ,  vamos a poder a travez de los " : " , solo acepta argumentos del tipo STYLE - KEY - CLASS , y despues recibe un value.
+- Asi como v-bind ,  vamos a poder a travez de los " : " , solo acepta argumentos del tipo STYLE - KEY - CLASS , y despues recibe un value.
 
 ![image](https://github.com/user-attachments/assets/4575fd3f-7791-469c-b0f6-7adf4bf4e35d)
 
-Para este caso , vamos a usar un SWITCH: 
+### Explicacion de LOGICA:
 
+Para este caso , vamos a usar un SWITCH: 
 En funcion al ARG , aplico una fuente o otra.
 
 ![image](https://github.com/user-attachments/assets/088f2f18-17dc-4e32-a84a-d560f0f492e4)
 
-Tambien es posible que no reciba un argumento , pero presentamos los distintos casos para cada argumento posible.
+- Tambien es posible que no reciba un argumento , pero presentamos los distintos casos para cada argumento posible.
 
 El tamaño default es 18 para caundo no haya ningun valor.
-
 Ahora le pasamos distintos argumentos a la directiva y vemos como cambian dichas.
 
 ![image](https://github.com/user-attachments/assets/dda3b4c2-814c-4e32-bc10-263d1c49f4cc)
 
 ![image](https://github.com/user-attachments/assets/204b4cf0-163f-40cd-824f-f88a532cc093)
 
-### Directivas Personalizadas con Argumentos
+### Directivas Personalizadas con Modificadores:
 
 - Asi como vimos los Argumentos , ahora tenemos los modificadores:
 
@@ -440,6 +440,11 @@ Vamos a poder tener tantos modficadores querramos , no tenemos que escojer entre
 Ademas con el bindeo podemos recibir modifcadores de tamaño ,  como aplicar modifcaciones sobre el color y el aspecto.
 Para ver que podes aplicar 1 o varios o ninguno.
 
+![image](https://github.com/user-attachments/assets/f97ab31c-8842-435d-829c-e1911e145c8b)
+
+Mostramos tanto como segun el argumento del size , que cargamos antes : sm , mg , xl 
+
+Y ademas podemos ver ademas de 
 
 
 
