@@ -446,6 +446,8 @@ Mostramos tanto como segun el argumento del size , que cargamos antes : sm , mg 
 
 ![image](https://github.com/user-attachments/assets/793b3c7f-4774-42d9-9099-8dcf5c889e81)
 
+- Ademas un punto clave para los modifcadores es que uno puede aplicar 1 o ninguno o todos.
+- El orden tampoco importa , es mucho mas flexible que los argumentos desde ese lago
 
 
 
