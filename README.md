@@ -449,6 +449,12 @@ Mostramos tanto como segun el argumento del size , que cargamos antes : sm , mg 
 - Ademas un punto clave para los modifcadores es que uno puede aplicar 1 o ninguno o todos.
 - El orden tampoco importa , es mucho mas flexible que los argumentos desde ese lago
 
+## Ejercicio de Servicios
+
+- Usamos la pagina jsonplaceholder , para acceder a una API de contenido con respuestas JSON asi hacemos el consumo de datos y utilizarla para probar nuestras aplicaciones.
+- En la seccion de post , esta nuestro ejercicio
+- Tomaremos una solicitud de point a este endponit de la API y obtendremos el listado de POST. Depues los pintaremos en un listado (idea es para poder a futuro entrar a enrutado.)
+
 
 
 
