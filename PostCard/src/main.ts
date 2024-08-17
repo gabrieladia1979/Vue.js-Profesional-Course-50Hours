@@ -51,4 +51,10 @@ app.directive('custom-size',{
     }
 })
 
+app.directive('custom-font',{   
+    beforeMount: (el, binding) =>{
+        let size = 18
+        
+    }
+})
 app.mount('#app')
