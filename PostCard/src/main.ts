@@ -55,6 +55,34 @@ app.directive('custom-font',{
     beforeMount: (el, binding) =>{
         let size = 18
         
+        if(binding.modifiers.sm){
+            size = 10
+        }
+        else if (binding.modifiers.lg){
+            size = 18
+        }
+        else if (binding.modifiers.xl){
+            size = 36
+        }
+        else if (binding.modifiers.xxl){
+            size = 48
+        }
+
+        el.style.fontSize = size + 'px'
+
+        let color = 'black'
+
+        if(binding.modifiers.red){
+            color = '#ff0000'
+        }
+        else if(binding.modifiers.blue){
+            color = '#0000ff'
+        }
+        else if(binding.modifiers.green){
+            color = '#00ff00'
+        }
+
+        el.style.color = color
     }
 })
 app.mount('#app')
