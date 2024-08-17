@@ -419,6 +419,14 @@ Ahora le pasamos distintos argumentos a la directiva y vemos como cambian dichas
 
 ![image](https://github.com/user-attachments/assets/2b0afe46-d0d0-4bdd-8621-99d47203dbed)
 
+Asi como vimos los Argumentos , ahora tenemos los modificadores:
+
+Vamos a poder tener tantos modficadores querramos , no tenemos que escojer entre ninguno de otro , escojes 1 o ninguno.
+
+Vamos a poder recibir modifcadores de tamaño ,  como aplicar modifcaciones sobre el color y el aspecto.
+
+Para ver que podes aplicar 1 o varios o ninguno.
+
 
 
 
