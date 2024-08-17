@@ -444,8 +444,7 @@ Para ver que podes aplicar 1 o varios o ninguno.
 
 Mostramos tanto como segun el argumento del size , que cargamos antes : sm , mg , xl 
 
-Y ademas podemos ver ademas de 
-
+![image](https://github.com/user-attachments/assets/793b3c7f-4774-42d9-9099-8dcf5c889e81)
 
 
 
