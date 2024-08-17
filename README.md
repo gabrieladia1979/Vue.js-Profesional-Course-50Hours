@@ -3,18 +3,17 @@
 Curso Introductorio a Vue.js de GOGODEV de mas de 50 Horas.
 Dejo contancia de anotaciones para interesados en lo teorico y lo aprendido.
 
-Clase 2:
+## Clase 2:
 
-Option Api  - Reactividad Implicita : La reactividad de los datos es automatica , no es necesario usar referencia ;  pero la estructura es distinta y mas declarativa que el "Composite API", hay que declarar los metodos que usemos en apartados distintos (Estructura declarativa) , los datos en otro y demas. De esta manera es mas clara la logica pero es mas trabajo la delcaracion si el proyecto es extenso.
+### Option Api  - Reactividad Implicita : La reactividad de los datos es automatica , no es necesario usar referencia ;  pero la estructura es distinta y mas declarativa que el "Composite API", hay que declarar los metodos que usemos en apartados distintos (Estructura declarativa) , los datos en otro y demas. De esta manera es mas clara la logica pero es mas trabajo la delcaracion si el proyecto es extenso.
 
-Composite API - Estructura Reactiva y Declarativa: La estrucutra es declarativo  y reactiva, necesarios importar el ref de "vue" para que los datos sean reactivos. La estructura solo cuenta con el setup en donde metes todo y los metodos y las declaracion de constantes esta mas inclianda hacia la reactivadad ya que la tenes que hacer a mano. Ademas hay que declarar el retorno de los datos al declarar una constante. Es mas flexible esta manera de usar el script y te da mas control de los datos que queremos hacer reactivos y cuales no.
+### Composite API - Estructura Reactiva y Declarativa: La estrucutra es declarativo  y reactiva, necesarios importar el ref de "vue" para que los datos sean reactivos. La estructura solo cuenta con el setup en donde metes todo y los metodos y las declaracion de constantes esta mas inclianda hacia la reactivadad ya que la tenes que hacer a mano. Ademas hay que declarar el retorno de los datos al declarar una constante. Es mas flexible esta manera de usar el script y te da mas control de los datos que queremos hacer reactivos y cuales no.
 
-ShortCut Composite API: " Simplicidad y Automatización " -> Para Composite API tenemos la opcion de directamente delcarar el "script" con un setup automatizado donde el retorno y la exportacion del componenete lo hace Vue.
+### ShortCut Composite API: " Simplicidad y Automatización " -> Para Composite API tenemos la opcion de directamente delcarar el "script" con un setup automatizado donde el retorno y la exportacion del componenete lo hace Vue.
 
 ![image](https://github.com/user-attachments/assets/28cd3ec2-1434-4fe5-86d7-d5c91b792ac3)
 
-Clase 3: Directivas Selectivas
-
+## Clase 3: Directivas Selectivas
 
 Renderizado entre V-IF vs V-SHOW:
 
@@ -67,7 +66,7 @@ Bindeo de Estilos por Eventos:
 
 
 
-Clase 4:
+## Clase 4:
 
 
 Bindeo Bidireccional:
@@ -125,7 +124,7 @@ Y para los modificar , que nos devuelve la informacion que agregamos al teachers
 
 ![image](https://github.com/user-attachments/assets/9deedb19-3658-4984-b821-12e8277af838)
 
-CLASE 5
+## Clase 5:
 
 Ciclo de vida de Componentes:
 
@@ -244,7 +243,7 @@ Fin de Clase 5.
 
 ...
 
-Comienzo de Clase 6:
+## Clase 6:
 
 
 Nuevo tipo de dato 
@@ -295,7 +294,7 @@ Aqui podemos calcular como seria el precio de impuestos que deberiamos pagar de 
 
 -Final Clase 6-
 
--Incio Clase 7 - 
+## Clase 7: 
 
 Directivas Personalizadas: (Modificar como actua dentro de viertual Dom las etiquetas ya prestablecidas)
 
