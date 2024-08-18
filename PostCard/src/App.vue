@@ -1,12 +1,12 @@
 <template>
   <div>
     <h1>Hola</h1>
-    <CustomDirectives />
+    <ExcersicePost />
   </div>
 </template>
 
 <script lang="ts" setup>
-  import CustomDirectives from './components/Clase_7/CustomDirectives.vue';
+  import ExcersicePost from './components/Clase_7/ExcersicePost.vue';
 </script>
 
 <style>
