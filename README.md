@@ -456,6 +456,16 @@ Mostramos tanto como segun el argumento del size , que cargamos antes : sm , mg 
 - Tomaremos una solicitud de point a este endponit de la API y obtendremos el listado de POST. Depues los pintaremos en un listado (idea es para poder a futuro entrar a enrutado.)
 
 
+### Utilizamos una constante con la funcion de un FETCH 
+
+![image](https://github.com/user-attachments/assets/638aeda5-d171-4db7-868a-c9709ac086da)
+
+- La idea es que a travez del array de Post que armamos con **TypeScript** , podamos guardar todos los datos del **JSON** al Array Post.
+- De esta manera , con el "axios.get" traemos todos los datos del JSON y los asignamos completos despues de haber montado el componente.
+
+- Tambien hay un caso **ERROR** por si no funcionace.
+
+# Clase 8
 
 
 
