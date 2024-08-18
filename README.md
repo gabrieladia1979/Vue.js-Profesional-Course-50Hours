@@ -467,6 +467,24 @@ Mostramos tanto como segun el argumento del size , que cargamos antes : sm , mg 
 
 # Clase 8
 
+- Explicacion de ejercicio de ejercicio por el profe
+
+**Enfoque** en estructuracion de datos y codigo , como organizamos la estructura para que sea facil de seguir.
+
+- A partir de ahora , vamos a empezar a estructurar nuestros componentes de manera distinta , de la manera correcta.
+
+Nos apoyaremos en las estructuras de:
+
+## Servicios y Estructuras Separadas para consumo de datos
+
+- **Defincion** : Cuando hacemos un consumo de dato , es decir un consumo de un tercero / desarrollo externo (un backend de un tercero API)
+- **No hacer el consumo directamente en el componenete !!!** Por que si hay cambios en los endpoint en el sistema que estamos consumiendo , vamos a tener que buzear en donde esta el consumo y como lo estamos consumiendo. Va a ser denso y nada va tener sentido
+- Es mejor usar una **Carpeta de Servicios**
+
+## **Carpeta de Servicios**
+
+
+
 
 
 
