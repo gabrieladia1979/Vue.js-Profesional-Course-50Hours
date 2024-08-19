@@ -483,7 +483,17 @@ Nos apoyaremos en las estructuras de:
 
 ## **Carpeta de Servicios**
 
-Vamos a crear
+### Vamos a crear dicha capeta de servicio , con una clase que se encargue de todas las conexiones.
+
+- Buscar Datos
+- Linedear consumos de datos
+- Mandar Datos , etc
+
+![image](https://github.com/user-attachments/assets/6d54fbd3-d993-4256-8a1e-bbbe7e6072e5)
+
+No vendria a ser un componenete , por eso lo indicamos con **TS**.
+
+
 
 
 
