@@ -469,7 +469,7 @@ Mostramos tanto como segun el argumento del size , que cargamos antes : sm , mg 
 
 - Explicacion de ejercicio de ejercicio por el profe
 
-**Enfoque** en estructuracion de datos y codigo , como organizamos la estructura para que sea facil de seguir.
+- **Enfoque** en estructuracion de datos y codigo , como organizamos la estructura para que sea facil de seguir.
 
 - A partir de ahora , vamos a empezar a estructurar nuestros componentes de manera distinta , de la manera correcta.
 
