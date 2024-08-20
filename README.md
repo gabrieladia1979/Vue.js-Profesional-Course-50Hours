@@ -499,7 +499,7 @@ Nuestro servicio sera una clase que se va a preocupar de servir e ir a buscar lo
 ![image](https://github.com/user-attachments/assets/5c07207c-4102-472e-bca7-ae8212886160)
 
 - Con nuestra variable privada posts solo declarada dentro de la clase.
-- Un **Constructor** -- Inicializo la variable posts como un array vacio
+- Un **Constructor** -- Inicializo la variable posts como un array vacio , que declaramos arriba.
 - Si quiero leer los post , los leo a travez del getter
 
 ### Funcion  Async
