@@ -1,38 +1,37 @@
-import {ref} from 'vue'
-class PostService{
-    
-    private posts
-    
-    constructor(){
-        
-        this.posts = ref([]) //Inicializo la variable posts como un array vacio
+import { ref, Ref } from 'vue';
+
+class PostService {
+    // Definimos el tipo de la propiedad posts como Ref<Array<any>> porque es una referencia a un array
+    private posts: Ref<Array<any>>;
+
+    constructor() {
+        // Inicializamos la variable posts como un array vacío
+        this.posts = ref([]) as Ref<Array<any>>;
     }
 
-    getPosts(){ //Si quiero leer los post , los leo a travez del getter
-    
-        return this.posts
-    
+    // El método getPosts retorna la referencia al array posts, por lo que el tipo de retorno es Ref<Array<any>>
+    getPosts(): Ref<Array<any>> {
+        return this.posts;
     }
 
-    async fetchAllPosts(){ // Funcion que hace el consumo del servicio externo , metodo asyncrono , donde espero la recepcion de datos y mientras la espero obtengo una promesa de retorno.
-    
-        try{ //estructura de control para manejar errores try catch , para gestionar errores no de nuestro sistema si no de la api externa.
-            
-            const url = 'https://jsonplaceholder.typicode.com/posts'
-            
-            const response = await fetch(url) //fetch es una funcion que hace una peticion a una url , y devuelve una promesa. - debemos esperar a que la url nos responda , porque si no tendriamos solo la promesa de respuesta.
-            
-            const data = await response.json() //response.json() es una funcion que transforma la respuesta en un objeto json
-            
-            this.posts = data //asigno la data a mi variable
-        }
+    // Método asíncrono que obtiene los posts de un servicio externo
+    async fetchAllPosts(): Promise<void> {
+        try {
+            const url = 'https://jsonplaceholder.typicode.com/posts';
 
-        catch(error){
-            
-            console.error(error)
-        }
+            // Realizamos una petición HTTP usando fetch, que devuelve una promesa con la respuesta
+            const response: Response = await fetch(url);
 
+            // Transformamos el cuerpo de la respuesta en un objeto JavaScript
+            const data: Array<any> = await response.json();
+
+            // Asignamos los datos obtenidos al array posts
+            this.posts.value = data;
+        } 
+        catch (error) {
+            console.error(error);
+        }
     }
 }
 
-export default PostService
+export default PostService;
