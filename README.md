@@ -493,11 +493,58 @@ Nos apoyaremos en las estructuras de:
 
 No vendria a ser un componenete , por eso lo indicamos con **TS**.
 
+Nuestro servicio sera una clase que se va a preocupar de servir e ir a buscar los datos , para que cualquier componente que quiera usarlo , el servicio se encarga de hacer las **peticiones oportunas**.
 
+## Usamos una estructura del tipo orientada a objetos
+![image](https://github.com/user-attachments/assets/5c07207c-4102-472e-bca7-ae8212886160)
 
+- Con nuestra variable privada posts solo declarada dentro de la clase.
+- Un **Constructor** -- Inicializo la variable posts como un array vacio
+- Si quiero leer los post , los leo a travez del getter
 
+### Funcion  Async
 
+- Funcion **ASYNC** que hace el consumo del servicio externo , metodo asyncrono , donde espero la recepcion de datos y mientras la espero obtengo una promesa de retorno.
+  
+### Estructura de try catch 
 
+- Control para manejar errores , para gestionar errores no de nuestro sistema , si no de la api externa.
+
+- Dentro de este try vamos a querer **recuperar** la informacion que estamos solicitando (POST) y guardando en la variable post (en realidad lo que estmaos buscando de la api extena )
+
+## Importante
+
+**POST REACTIVO** -> Porque queremos que nuestro servicio actualice la informacion de los post que tiene ,  esta info se muestre en nuestro contenido y en nuestros componentes quede actualizada
+
+![image](https://github.com/user-attachments/assets/51ebdf7e-1bfa-47dd-9608-246f2cd144b2)
+
+- La funcion que hace el consumo del servicio externo , **metodo asyncrono** , donde espero la recepcion de datos y mientras la espero obtengo una promesa de retorno.
+
+## Promesa de retorno
+
+![image](https://github.com/user-attachments/assets/f7321f69-f0af-4adb-b8a2-5ba0159cca2c)
+
+![image](https://github.com/user-attachments/assets/fd9c2970-f449-43c1-89fd-13ed2ef6fb5a)
+ 
+- Fetch es una funcion que hace una peticion a una url , y devuelve una promesa. Debemos esperar a que la url nos responda , porque si no tendriamos solo la promesa de respuesta.
+
+## Paso 1: Recibir la Respuesta HTTP response: 
+
+Después de que la promesa de fetch se resuelve, response contiene la respuesta HTTP completa. Esto incluye tanto los datos que recibes del servidor (el cuerpo de la respuesta) como la metadata, como el estado HTTP (por ejemplo, 200 para "OK", 404 para "No encontrado", etc.).
+
+## Paso 2: Transformar la Respuesta en JSON javascript
+
+const data = await response.json()
+
+### response.json(): 
+
+Este es un método que convierte el cuerpo de la respuesta (que está en formato JSON, una cadena de texto) en un objeto JavaScript. JSON (JavaScript Object Notation) es un formato de intercambio de datos común que representa datos estructurados como objetos de JavaScript.
+
+**await response.json()** 
+
+Aquí, await está esperando a que la conversión del cuerpo de la respuesta en un objeto JSON se complete. Aunque esta operación es relativamente rápida, sigue siendo asíncrona porque puede implicar la lectura y el procesamiento de un flujo de datos, especialmente si la respuesta es grande.
+
+data: Después de que await response.json() se resuelve, data contiene el objeto JavaScript resultante que representa los datos que el servidor envió en la respuesta.
 
 
 
