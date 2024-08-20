@@ -546,6 +546,23 @@ Aquí, await está esperando a que la conversión del cuerpo de la respuesta en 
 
 data: Después de que await response.json() se resuelve, data contiene el objeto JavaScript resultante que representa los datos que el servidor envió en la respuesta.
 
+## Listos para Avanzar
+
+- Despues de tener la carpeta de servicios , ya podes crear nuestro componente para la lectura de nuestro servicio de POST , donde usaremos nuestro servicio de post, es decir ...
+
+### El montaje de nuestro servicio
+
+Primero en el setup queremos el consumo de nuestro servicio , como ?
+
+- Con el ciclo de vida de nuestro componente:
+
+- Vamos a interesarnos en la parte donde el componente **solicite** la informacion al servicio.
+
+## Paso 1
+
+- Nuestro componente tiene que solicitar al servicio que pida los datos. 
+
+-  En que momento se dispara ? **Cuando se monta** -> A travez del FETCH ALL
 
 
 
