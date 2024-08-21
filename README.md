@@ -565,6 +565,31 @@ Primero en el setup queremos el consumo de nuestro servicio , como ?
 -  En que momento se dispara ? **Cuando se monta** -> A travez del FETCH ALL
 
 
+![image](https://github.com/user-attachments/assets/11f7d18c-7eeb-4f53-9d2a-8e40267431b2)
+
+- Accion Componente: Aca lo que hacemos es incializamos el service  , activamos el constructor del **service** 
+- Accion servico : En este , se nos genere el post con una referencia vacia para el componente donde podemos obtener los post del servicio con el get
+- El post nos devolvera con el .this lo que tenga el array de post dentro de este.
+
+![image](https://github.com/user-attachments/assets/39477d3c-fe0d-40c0-a67f-43fdcd8f21f1)
+
+
+![image](https://github.com/user-attachments/assets/ffc68786-59dc-436f-880d-6e515072e79d)
+
+- Ahi es donde llama con el get a los post del service.
+- Y ademas vemos como aplicamos el funcionamiento del **asincronico del fetch**.
+
+![image](https://github.com/user-attachments/assets/69eb3625-d2ce-4752-a29b-a351be470e18)
+
+## Importancia del onMounted en este contexto
+- El uso de onMounted es crucial aquí porque te asegura que la operación de obtener datos (que puede tomar un tiempo indeterminado) no se inicia hasta que el componente está completamente listo para recibirlos y mostrarlos. También evita posibles errores o condiciones de carrera donde el componente intente acceder o manipular el DOM antes de que esté completamente disponible.
+
+- Esto asegura una mayor consistencia y fiabilidad en la interacción con APIs externas y en la representación de los datos obtenidos.
+
+### Gracias a que esperamos al fetch del service , cuando nuestro componente arriba haga el getPost , ya deberian estar cargados todos los post dentro porque con el onMonted marca la creacion del serivice con await hasta que los fetchie.
+
+
+
 
 
 
