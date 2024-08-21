@@ -11,7 +11,7 @@
 <script lang="ts" setup>
 
     import PostService from '@/services/PostService';
-    import { ref, Ref , onMounted } from 'vue';
+    import {onMounted } from 'vue';
 
     const service = new PostService(); // Instancia de la clase PostService.
     const post = service.getPosts(); // Traigo los post del servicio.
