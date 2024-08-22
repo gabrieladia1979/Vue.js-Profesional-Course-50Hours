@@ -614,10 +614,33 @@ Tipamos el .ts y vemos que arreglamos los any.
 
 # Clase 9
 
+## Estilado
 
+- Las primeras 8 clases , vimos nuestro "style" desde dentro de nuestro componente de manera *scoped* y dentro del Vue.app
+### Esto puede traernos problemas en el futuro por diversas cuestiones:
 
+1) Cuando el componenete sea mas grande , y queramos dar mas detalle , el style se disparara y 100 lineas de codigo solo por esta,
+2) App.vue , puede provocar mas lineas de codigo en algo que es innecesario el style
 
+## Objetivos para una buena estrucutracion de codigo
 
+1) **Particionar el codigo y dividirlo** , para disponer de forma global y usar los estilos. Crear variables para los colores para modificar un color y para cambiar en todo nuestro proyecto. Dividir en carpetas (fuentes , colores , etc)
+2) Propia estrucutra de contenidos - estilo cascada , entonces codigo muy extenso - por eso uso **preprosesado de css** (contenido mas pequeño y mas facil de leer)
+
+## Mejoras:
+
+- Particionar codigo y facil de leer. 
+- Reutilizacion de codigo a otros clientes.
+- Parametrizacion de codigo
+- Nuevas funcionalidad y mejoras a estilos
+
+## Comnezamos con un nuevo proyecto al pre-posesador
+
+![image](https://github.com/user-attachments/assets/a8b000cf-fd49-477e-a1d2-9b3ab6fa1ec0)
+
+Estos son los 3 tipos de pre-procesadores , Sas es el mas extendido de ellos. 
+
+### Muesta de funcionamiento del preprocesador: ![image](https://github.com/user-attachments/assets/a56b6078-0a00-42b1-a7ba-cb2b0a34f872)
 
 
 
