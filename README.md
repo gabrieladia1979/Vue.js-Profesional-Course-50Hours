@@ -588,6 +588,31 @@ Primero en el setup queremos el consumo de nuestro servicio , como ?
 
 ### Gracias a que esperamos al fetch del service , cuando nuestro componente arriba haga el getPost , ya deberian estar cargados todos los post dentro porque con el onMonted marca la creacion del serivice con await hasta que los fetchie.
 
+![image](https://github.com/user-attachments/assets/7b216dc9-cb78-440d-8a52-4d7ab32b114c)
+
+- Declaramos en otra carpeta nuestra interfaz para TypeScript y ponemos ? para indicar no saber si se mantiene a lo largo de los elementos. 
+- Forma de protejerse ante opcionalidad del valor
+- Exportamos por defecto
+
+![image](https://github.com/user-attachments/assets/a9035488-be09-4989-8467-29648ec1234e)
+
+Tipamos el .ts y vemos que arreglamos los any.
+
+## Estilado del PostList
+
+![image](https://github.com/user-attachments/assets/079807ca-bedb-4d2a-8101-30a82c902a1e)
+
+## Conclusiones
+
+- Ejecutar buenas practicas en el codigo para despues en un futuro no tener problemas en la estrucura interna e externa (API). 
+- Cada vez que tengamos logica mas complejas , va a ser mas complicado mantener todo dentro de un componente.
+
+## Estrategias:
+
+- Derivar servicio a una estrucutra de servicio con una clase donde cada vez que necesitemos consumir dicho servicio , tendremos rapidametne visible y facil de usar esta.
+- El tipado tambien en otras interfaces para definir interfaces.
+
+# Clase 9
 
 
 
