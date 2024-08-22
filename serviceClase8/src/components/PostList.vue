@@ -26,4 +26,17 @@
 
 <style scoped>
 
+    .post-list {
+      width: 95%;
+      height: 75px;
+      list-style-type: none;
+      padding: 20px;
+    }
+
+    .post-list li {
+      background-color: #f9f9f9;
+      margin: 10px;
+      padding: 10px;
+      border-radius: 50px;
+    }
 </style>
