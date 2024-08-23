@@ -640,16 +640,31 @@ Tipamos el .ts y vemos que arreglamos los any.
 
 Estos son los 3 tipos de pre-procesadores , Sas es el mas extendido de ellos. 
 
-### Muesta de funcionamiento del preprocesador: ![image](https://github.com/user-attachments/assets/a56b6078-0a00-42b1-a7ba-cb2b0a34f872)
+### Muesta de funcionamiento del preprocesador: 
+
+![image](https://github.com/user-attachments/assets/a56b6078-0a00-42b1-a7ba-cb2b0a34f872)
+
+## Instalacion de pre-procesador en un proyecto antiguo: 
+
+![image](https://github.com/user-attachments/assets/7b6b6108-cd85-4b58-aa88-c790391f6dee)
 
 
+### Uso del mismo: 
 
+![image](https://github.com/user-attachments/assets/2d4fecbd-b021-4bb5-bf06-918ec7d37648)
 
+Creamos una variable con el nombre del color y la usamos en el **li**.
 
+![image](https://github.com/user-attachments/assets/c41b4262-cf66-4da3-839d-569330765351)
 
+- Vamos a realizar ahora una estructuracion a nivel **Global** , crearemos archivos CSS para tener a nivel general , una carpeta con nombre CSS
+- Podes estructurar aun mas en la carpeta SCSS , e ir a nivel fuete , tamaño , color , tipografia etc (nivel super especifico - mas estructurado y dividido )
 
+### Donde se exportan las implementacion de estilado ? En el config
 
+![image](https://github.com/user-attachments/assets/e09990c8-e253-4183-9801-984a4d225fab)
 
+Aqui le pasamos el tipo de carga
 
 
 
