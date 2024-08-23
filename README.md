@@ -691,10 +691,15 @@ Nos permite distribuir el codigo scss ante el contenido escalable.
 
 Acciones del preprocesador
 
-
 - El codigo SCSS se trasnpila y se convierte en CSS natural. 
 
+### Uso de FrameWork: Boostrap
 
+- npm install --save bootstrap
+- npm install --save @popperjs/core
+- De esta manera solo nos queda importarlo en el main.ts
+
+- 
 
 
 
