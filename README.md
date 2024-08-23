@@ -664,7 +664,12 @@ Creamos una variable con el nombre del color y la usamos en el **li**.
 
 ![image](https://github.com/user-attachments/assets/e09990c8-e253-4183-9801-984a4d225fab)
 
-Aqui le pasamos el tipo de carga
+Aqui le pasamos el tipo de carga : especificamos que para css usamos scss y que este en x carpeta con el addition data.
+
+![image](https://github.com/user-attachments/assets/351bce62-053e-4f72-bef9-65af071372c0)
+
+- Ahora tenemos a disposicion de nuestro poryecto todas nuestras variables globales.
+
 
 
 
