@@ -24,7 +24,9 @@
 
 </script>
 
-<style scoped>
+<style scoped lang="scss">
+
+    //$red: red;
 
     .post-list {
       width: 95%;
@@ -38,5 +40,6 @@
       margin: 10px;
       padding: 10px;
       border-radius: 50px;
+      
     }
 </style>
