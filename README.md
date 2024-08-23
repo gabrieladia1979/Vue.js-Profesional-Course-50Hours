@@ -670,10 +670,29 @@ Aqui le pasamos el tipo de carga : especificamos que para css usamos scss y que 
 
 - Ahora tenemos a disposicion de nuestro poryecto todas nuestras variables globales.
 
+## Puntos Intersesantes de Pre-procesadores
+
+1) Declaracion de varaibles
+2) Anidamiento - Podes escribir dentro de un selector otro selector (usar postlist y dentro li)
+
+![image](https://github.com/user-attachments/assets/7cb7c63f-f385-49aa-94ac-37ec7c424dae)
+
+Y nos evitamos el uso del .postlist li
+
+3) Distribucion de codigo a travez de importaciones
+
+![image](https://github.com/user-attachments/assets/297a898a-1f4f-4cb1-9f32-b0d330c503d0)
+
+Nos permite distribuir el codigo scss ante el contenido escalable.
+
+4) Intrucciones de control (IF - BUCLES)
+
+![image](https://github.com/user-attachments/assets/6608c6b0-ba08-4aa5-8729-5628fe839649)
+
+Acciones del preprocesador
 
 
-
-
+- El codigo SCSS se trasnpila y se convierte en CSS natural. 
 
 
 
