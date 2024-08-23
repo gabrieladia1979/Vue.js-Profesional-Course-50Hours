@@ -33,13 +33,20 @@
       height: 75px;
       list-style-type: none;
       padding: 20px;
-    }
 
-    .post-list li {
-      background-color: #f9f9f9;
+      li {
+        background-color: #f9f9f9;
       margin: 10px;
       padding: 10px;
       border-radius: 50px;
-      
+      color: $red;
+      }
+
+      li:hover {
+        background-color: darken(#000000, 10%);
+      }
+
     }
+
+    
 </style>
