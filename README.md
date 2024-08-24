@@ -699,7 +699,9 @@ Acciones del preprocesador
 - npm install --save @popperjs/core
 - De esta manera solo nos queda importarlo en el main.ts
 
-- 
+# Clase 10:
+
+
 
 
 
