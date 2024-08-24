@@ -1,5 +1,5 @@
 <template>
-  <h1>Post List</h1>
+  <h1>Post List <button class="btn btn-primary">Estialdo con bootstrap</button></h1>
   <ul class = 'post-list'>
     <li v-for = 'post in post' :key = 'post.id'>
       {{ post.title }}
