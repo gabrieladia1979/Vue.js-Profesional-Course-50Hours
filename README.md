@@ -737,7 +737,7 @@ Modo history para prosproduccion
 - Components : Elementos parciales , composiciones parciales para el diseño
 
 
-## Cambios en la Estructuracion del App.Vue
+## Cambios en la Estructuracion del App.Vue 
 
 
 
