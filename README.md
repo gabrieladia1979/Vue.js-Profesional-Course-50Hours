@@ -705,6 +705,41 @@ Acciones del preprocesador
 
 Modo history para prosproduccion
 
+- En el main.ts que es el punto de entrada que crea nuestra instancia de vue , nos muestra un cambio.
+- Aqui vemos que el "router" se importa y se le indica que se va a utilizar en el div , esto le da potestad al router  para poder controlar las rutas que vamos a estar construyendo en nuestra aplicacion.
+
+## Carpeta Router
+
+-  El routerRaw nos va a permitir generar diferentes rutas. ** Es un array de Objetos **
+-  Este va a contener el path - URL - , y el componenete que se va a estar ejecutando cunado entremos a esa ruta.
+
+![image](https://github.com/user-attachments/assets/0d986699-0088-42c9-bdee-7e04272759ee)
+
+
+-Despues aqui se ejecuta lo mismo , pero con ciertas diferencia , otro ejemplo de construccion de ruta para generar code splitting para despues hacer lazy loading de las diferenctes rutasy hacer cargas mas rapidas de cargas , para apoyarse en el web pack para ponerle nombre a cada una de las rutas de darle a mas agilidad a este proceso.
+
+![image](https://github.com/user-attachments/assets/ea384d74-2cb9-4cc7-a365-bdb98dffad0e)
+
+- Aca el component es el AboutView - (Igual que el HomeView)
+
+### Resumen 
+
+- Tenemos estos dos formatos y ademas la creacion del router
+
+![image](https://github.com/user-attachments/assets/aa659bc1-0b38-483c-8de6-f397df9aa92b)
+
+- Reaccionamos a la constante router , la cual la creamos a travez del history de vue , que alli tenemos el control historico de rutas
+- Y le asinamos la constante de routes (las distintas rutas) con componentes que las gobiernan.
+
+# Diferentencias de Views con Components
+
+- Las Views son los padres de una lista de una ruta completa - Llamados por el router  , vistas de router - 
+- Components : Elementos parciales , composiciones parciales para el diseño
+
+
+## Cambios en la Estructuracion del App.Vue
+
+
 
 
 
