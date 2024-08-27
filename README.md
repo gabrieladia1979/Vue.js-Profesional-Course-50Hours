@@ -739,6 +739,18 @@ Modo history para prosproduccion
 
 ## Cambios en la Estructuracion del App.Vue 
 
+![image](https://github.com/user-attachments/assets/cdd0fb32-8f34-4890-93e2-0a9bdece6d4b)
+
+- Utilizacion router link para poder acceder a la carpeta de router donde esta cada vista.
+
+![image](https://github.com/user-attachments/assets/df0c960f-05d9-4cce-b51c-12e3335410e8)
+
+  
+## Caracteristicas de usar Router: 
+
+![image](https://github.com/user-attachments/assets/dc4f1619-e0a0-4bba-8a89-6ae0ab968919)
+
+
 
 
 
