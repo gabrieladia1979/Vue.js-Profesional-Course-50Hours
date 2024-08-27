@@ -56,7 +56,7 @@ V-if es una directiva que agrega o elimina elementos del DOM según una expresi�
 ![image](https://github.com/user-attachments/assets/afb65c9c-ac9f-41b2-b99c-067d9577ccfb)
 
 ### V-BIND: Unidireccional
-
+ 
 - Nos sirve para bindear datos de una etiqueta del templeta con las del script(nuestro sistema de datos). Todo lo que vamos a estar viendo es a nivel unidireccional
 
 ### Caso 1 : Bindeo de clases 
@@ -737,7 +737,8 @@ Modo history para prosproduccion
 - Components : Elementos parciales , composiciones parciales para el diseño
 
 
-## Cambios en la Estructuracion del App.Vue
+## Cambios en la Estructuracion del App.Vue 
+
 
 
 
