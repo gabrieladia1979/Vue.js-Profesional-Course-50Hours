@@ -743,6 +743,9 @@ Modo history para prosproduccion
 
 - Utilizacion router link para poder acceder a la carpeta de router donde esta cada vista.
 
+- Donde montamos la app , como cambio al estructura **Uso de menu de navegacion** - router link - que nos permite navegar entre las diferentes rutas
+- Y el router view pinta la que este activa, pinta la vista en la que pulsemos y nos mostrara dicha vista. (lo va a aver en el router index) - 
+
 ![image](https://github.com/user-attachments/assets/df0c960f-05d9-4cce-b51c-12e3335410e8)
 
   
@@ -750,8 +753,7 @@ Modo history para prosproduccion
 
 ![image](https://github.com/user-attachments/assets/dc4f1619-e0a0-4bba-8a89-6ae0ab968919)
 
-
-
+### Ahora ya sabemos crear aplicaiones que no son SPA , Si no app con diferentes rutas de contenidos.
 
 
 
