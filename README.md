@@ -772,9 +772,15 @@ Modo history para prosproduccion
 
 #Estilos:
 
-- 
+![image](https://github.com/user-attachments/assets/f6054448-c2c2-4489-b646-f2d0dec8c9ab)
 
+- Si la ruta donde nos encontramos esta activa , se le aplica el route link active y se le aplica el router link exact active
+- Para marcer el estilo general del servicio route link active  - Hijo de home 
+- Situacion Concreta del servicio - link exact active - Excatamente la del Home
 
+![image](https://github.com/user-attachments/assets/ded6e567-20ae-4faf-a46f-8a68f103e31c)
+
+## Uso de parametros para rutas dinamicas
 
 
 
