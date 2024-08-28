@@ -782,7 +782,15 @@ Modo history para prosproduccion
 
 ## Uso de parametros para rutas dinamicas
 
+- Llamar a la ruta determina y pasar informacion de un componente a otro.
+- Mandar un parametro dentro de una ruta y que esta la reciba
 
 
 
 
+- Aca le damos el parametro id para que a esta le llegue dicho paramtro y lo reciba. Este elemneto es **dinamico**
+- De esta manera podemos recuperar la inforamacion y utlizarla.
+
+![image](https://github.com/user-attachments/assets/2596c356-ed0e-4ffb-b927-540517220b72)
+
+- Carga solamente si le pasamos un parametro.
