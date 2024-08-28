@@ -755,6 +755,25 @@ Modo history para prosproduccion
 
 ### Ahora ya sabemos crear aplicaiones que no son SPA , Si no app con diferentes rutas de contenidos.
 
+## Generar nuevas rutas (Prueba)
+
+![image](https://github.com/user-attachments/assets/b5e3a992-a5d6-4d75-980f-6721373c1078)
+
+- Genenramos nuevas **Vistas** y las enlazamos al App.vue
+- Pero hay un problema ...  poner tanto codigo en el app.vue es una mala practica, asi que creamos un componente para el nav-var !!
+- Asi atomizamos mas el contenido.
+
+## Creamos un Componenete MainMenu
+
+![image](https://github.com/user-attachments/assets/ab38c59e-5b7b-434e-b755-ae5af19517a0)
+
+- Creamos un componente con el mismo nav-bar que el App.vue y los estilos propios de este.
+- De esta manera , podemos tener una estructura mas atomica y limpia.
+
+#Estilos:
+
+- 
+
 
 
 
