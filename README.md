@@ -791,6 +791,11 @@ Modo history para prosproduccion
 - Aca le damos el parametro id para que a esta le llegue dicho paramtro y lo reciba. Este elemneto es **dinamico**
 - De esta manera podemos recuperar la inforamacion y utlizarla.
 
+![image](https://github.com/user-attachments/assets/629f2433-802e-422b-b97f-6781f0508476)
+
+
 ![image](https://github.com/user-attachments/assets/2596c356-ed0e-4ffb-b927-540517220b72)
 
 - Carga solamente si le pasamos un parametro.
+
+  
