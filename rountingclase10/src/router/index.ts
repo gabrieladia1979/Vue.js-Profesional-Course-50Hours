@@ -3,6 +3,7 @@ import HomeView from '../views/HomeView.vue'
 import AboutView from '../views/AboutView.vue'
 import ServicesView from '../views/ServicesView.vue'
 import ContactView from '../views/ContactView.vue'
+import BlogView from '../views/BlogView.vue'
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -24,6 +25,11 @@ const routes: Array<RouteRecordRaw> = [
     path: '/contact',
     name: 'contact', 
     component: ContactView
+  },
+  {
+    path: '/blog',
+    name: 'blog',
+    component: BlogView
   }
 
 ]
