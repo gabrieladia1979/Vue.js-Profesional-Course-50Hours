@@ -798,6 +798,23 @@ Modo history para prosproduccion
 
 - Carga solamente si le pasamos un parametro.
 
+### Pero esta estructuracion esta mal !! 
+
+- Dejamos el Blog sin id y cramos una View de tipo post view - que utilizaremos para ver el detaller del blog.
+
+![image](https://github.com/user-attachments/assets/58545edd-ae46-466f-bd3d-c6ba862e12aa)
+
+- **De esta manera , cuando se ingresa un compnente en el blog/ , entramos al post view**
+
+## Buena estructuracion de rutas: 
+
+![image](https://github.com/user-attachments/assets/1c9604fd-e67f-4522-b47e-fc397d48395a)
+
+- Vue utiliza el "to" en el router link , ante grandes proyectos vamos a tener multiples enlaces (footer ,etc)
+- Elementos que modifican la navegacion
+
+
+
 
 
   
