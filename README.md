@@ -812,8 +812,7 @@ Modo history para prosproduccion
 
 - Vue utiliza el "to" en el router link , ante grandes proyectos vamos a tener multiples enlaces (footer ,etc)
 - Elementos que modifican la navegacion
-
-
+- Es decir , no es mantenible
 
 
 
