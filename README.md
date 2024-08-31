@@ -834,4 +834,5 @@ Modo history para prosproduccion
 
 ## Como obtener la informacion (id) del PostView? 
 
-- 
+![image](https://github.com/user-attachments/assets/b5d441a0-f733-4c75-bba3-8fac87659249)
+
