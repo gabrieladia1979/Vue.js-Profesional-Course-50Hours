@@ -814,6 +814,24 @@ Modo history para prosproduccion
 - Elementos que modifican la navegacion
 - Es decir , no es mantenible
 
+- Manera correcta: 
+
+![image](https://github.com/user-attachments/assets/97077728-90dd-4a6f-83e4-cd2672f488fe)
+
+- De esta manera , solo responde al nombre en vez de la ruta.
+
+![image](https://github.com/user-attachments/assets/779aea58-9d8a-4d64-b16a-f3c074be7846)
 
 
-  
+## Comparacion y diferencias: 
+
+![image](https://github.com/user-attachments/assets/00f46060-64c9-4640-8ee8-b9b6fab6e45d)
+
+![image](https://github.com/user-attachments/assets/2c41c5ab-d80e-4c52-84c8-ba1a2d4b6d45)
+
+![image](https://github.com/user-attachments/assets/2625e569-3423-4828-bbce-88bcfd66b004)
+
+
+## Como obtener la informacion (id) del PostView? 
+
+- 
