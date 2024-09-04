@@ -1,7 +1,7 @@
 # Proyecto Introduccion a Vue.JS 
 
 Curso Introductorio a Vue.js de GOGODEV de mas de 50 Horas.
-Dejo contancia de anotaciones para interesados en lo teorico y lo aprendido.
+Dejo contancia de anotaciones para interesados en lo teorico y lo aprendido. 
 
 ## Clase 2: 
 
