@@ -710,13 +710,45 @@ Modo history para prosproduccion
 
 ## Carpeta Router
 
+Router Record Raw : Utilizo para utilizar una constante de rutas , para poder utilizar un array de rutas
+
 -  El routerRaw nos va a permitir generar diferentes rutas. ** Es un array de Objetos **
--  Este va a contener el path - URL - , y el componenete que se va a estar ejecutando cunado entremos a esa ruta.
+
+-  Este va a contener
+1)   el path - URL -
+2)   el componenete que se va a estar ejecutando cunado entremos a esa ruta.
 
 ![image](https://github.com/user-attachments/assets/0d986699-0088-42c9-bdee-7e04272759ee)
 
 
--Despues aqui se ejecuta lo mismo , pero con ciertas diferencia , otro ejemplo de construccion de ruta para generar code splitting para despues hacer lazy loading de las diferenctes rutasy hacer cargas mas rapidas de cargas , para apoyarse en el web pack para ponerle nombre a cada una de las rutas de darle a mas agilidad a este proceso.
+- Despues aqui se ejecuta lo mismo , pero con ciertas diferencia , otro ejemplo de construccion de ruta para generar code splitting para despues hacer lazy loading de las diferenctes rutasy hacer cargas mas rapidas de cargas , para apoyarse en el web pack para ponerle nombre a cada una de las rutas de darle a mas agilidad a este proceso.
+
+# Resumen y Explicaciones
+### Definición de rutas:
+
+Se define un array de objetos llamado routes, donde cada objeto representa una ruta de la aplicación.
+Cada objeto en el array routes tiene propiedades como path, name y component.
+
+- path: La URL a la que se accederá.
+- name: El nombre de la ruta, útil para la navegación programática.
+- component: El componente Vue que se renderizará cuando se acceda a la ruta.
+
+Ejemplo de construcción de una ruta:
+
+La primera ruta tiene el path '/', el name 'home' y el component HomeView.
+La segunda ruta tiene el path '/about', el name 'about' y usa import() para cargar el componente AboutView de manera diferida (lazy loading).
+
+## Ventajas de Lazy Loading
+
+- Code Splitting: Divide el código en partes más pequeñas para que no se cargue todo de una vez. Esto mejora el tiempo de carga inicial.
+- Lazy Loading: Carga las partes del código solo cuando se necesitan. Por ejemplo, AboutView solo se carga cuando el usuario navega a la ruta '/about'.
+- webpackChunkName: Este comentario especial (/* webpackChunkName: "about" */) le dice a webpack que nombre este chunk como "about". Esto ayuda en el proceso de carga y hace más fácil identificar los chunks en el navegador.
+
+### Resumen
+En main.ts, se configura el router para usar el modo history.
+Se define un array de rutas en el cual cada ruta tiene un path, un name, y un component.
+Se muestra cómo implementar el lazy loading con import() para mejorar la eficiencia de carga.
+Si necesitas más detalles o tienes alguna pregunta específica sobre alguna parte del código, ¡házmelo saber!
 
 ![image](https://github.com/user-attachments/assets/ea384d74-2cb9-4cc7-a365-bdb98dffad0e)
 
