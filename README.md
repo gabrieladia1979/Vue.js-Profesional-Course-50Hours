@@ -835,7 +835,7 @@ Si necesitas más detalles o tienes alguna pregunta específica sobre alguna par
 - Dejamos el Blog sin id y cramos una View de tipo post view - que utilizaremos para ver el detaller del blog.
 
 ![image](https://github.com/user-attachments/assets/58545edd-ae46-466f-bd3d-c6ba862e12aa)
-
+ 
 - **De esta manera , cuando se ingresa un compnente en el blog/ , entramos al post view**
 
 ## Buena estructuracion de rutas: 
